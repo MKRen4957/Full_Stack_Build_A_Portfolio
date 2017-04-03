@@ -1,0 +1,41 @@
+@media screen and (min-width: 420px) {
+
+}
+
+@media screen and (min-width: 750px) {
+	.logoImg {
+		width: 100px;
+	}
+	.name {
+		font-size: 50px;
+	}
+	.desc {
+		font-size: 20px;
+	}
+	.middleImg {
+		display: block;
+		margin: auto;
+	}
+	.projectText {
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.logoImg {
+		width: 140px;
+	}
+	.name {
+		font-size: 70px;
+	}
+	.desc {
+		font-size: 30px;
+	}
+	.middleImg {
+		display: block;
+		margin: auto;
+	}
+	.projectText {
+		font-size: 50px;
+	}
+}

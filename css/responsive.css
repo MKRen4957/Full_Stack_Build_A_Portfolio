@@ -1,45 +1,65 @@
 @media screen and (max-width: 767px) {
-	.name, .desc, .logoCol, .projectText, .projectName, .url, .projectImg {
+	.name,
+	.desc,
+	.logo-col,
+	.project-text,
+	.project-name,
+	.url,
+	.project-img {
 		text-align: center;
 	}
 }
 
 @media screen and (min-width: 768px) {
-	.logoImg {
+	.logo-img {
 		width: 90px;
 	}
-	.nameCol {
+
+	.name-col {
 		text-align: right;
 	}
+
 	.name {
 		font-size: 50px;
 	}
+
 	.desc {
 		font-size: 20px;
 	}
-	.middleImg {
+	.middle-img {
 		display: block;
 		margin: auto;
 	}
-	.projectText, .projectName {
+
+	.project-text,
+	.project-name {
 		font-size: 40px;
 	}
+
 }
 
 @media screen and (min-width: 992px) {
-	.logoImg {
+	.logo-img {
 		width: 110px;
 	}
+
 	.name {
 		font-size: 70px;
 	}
+
 	.desc {
 		font-size: 30px;
 	}
-	.projectText, .projectName {
+
+	.project-text,
+	.project-name {
 		font-size: 50px;
 	}
+
 	.image {
-		width: 220px;
+		height: 220px;
+		max-width: 100%;
+		padding: auto;
 	}
+
 }
